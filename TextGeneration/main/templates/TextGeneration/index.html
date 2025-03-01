@@ -6,4 +6,9 @@
 
 {% block body %}
     <h1>Тут будет модель с генерацией текста</h1>
+    <form method="POST" action="{% url 'index' %}">
+        {% csrf_token %}
+        {{ form }}
+    <button>Отправить</button>
+    </form>
 {% endblock %}
