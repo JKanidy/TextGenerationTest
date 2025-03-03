@@ -1,5 +1,5 @@
 """
-ASGI config for TextGeneration project.
+ASGI config for textgeneration project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'TextGeneration.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'textgeneration.settings')
 
 application = get_asgi_application()
